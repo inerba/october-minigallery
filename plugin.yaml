@@ -3,7 +3,7 @@ plugin:
     description: 'inerba.minigallery::lang.plugin.description'
     author: 'Francesco Apruzzese'
     icon: oc-icon-image
-    homepage: ''
+    homepage: 'https://github.com/inerba/october-minigallery'
 navigation:
     main-menu-minigallery:
         label: 'inerba.minigallery::lang.plugin.name'

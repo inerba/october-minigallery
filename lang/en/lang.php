@@ -1,15 +1,15 @@
 <?php return [
     'plugin' => [
         'name' => 'Mini Gallery',
-        'description' => 'Semplice componente per gallery multilingua con snippets per le pagine statiche',
+        'description' => 'Easy translatable gallery component with page snippet.',
     ],
     'component' => [
         'name' => 'Gallery',
-        'description' => 'Mostra la gallery selezionata',
+        'description' => 'Display selected gallery',
         'properties' => [
             'gallery_item' => [
                 'name' => 'Gallery',
-                'description' => 'Seleziona la gallery che vuoi mostrare',
+                'description' => 'Select the gallery you want to show',
             ],
         ],
     ],

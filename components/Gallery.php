@@ -8,8 +8,8 @@ class Gallery extends ComponentBase
     public function componentDetails()
     {
         return [
-            'name'        => 'Gallery',
-            'description' => 'Mostra una galleria di immagini'
+            'name'        => 'inerba.minigallery::lang.component.name',
+            'description' => 'inerba.minigallery::lang.component.description'
         ];
     }
 
