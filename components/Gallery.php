@@ -17,27 +17,35 @@ class Gallery extends ComponentBase
     {
         return [
             'galleryItem' => [
-                'title'       => 'Gallery',
-                'description' => 'Seleziona la gallery da mostrare',
+                'title'       => 'inerba.minigallery::lang.component.properties.gallery_item.name',
+                'description' => 'inerba.minigallery::lang.component.properties.gallery_item.description',
                 'type'        => 'dropdown',
                 'default'     => '',
             ],
             'thumbWidth' => [
-                'title'             => 'Thumb width px',
+                'title'             => 'inerba.minigallery::lang.component.properties.thumb_width.name',
                 'type'              => 'string',
                 'default'           => '100',
                 'group'             => 'Thumbnails',
             ],
             'thumbHeight' => [
-                'title'             => 'Thumb height px',
+                'title'             => 'inerba.minigallery::lang.component.properties.thumb_height.name',
                 'type'              => 'string',
                 'default'           => '100',
                 'group'             => 'Thumbnails',
             ],
             'thumbMode' => [
-                'title'             => 'Thumb crop',
-                'type'              => 'string',
+                'title'             => 'inerba.minigallery::lang.component.properties.thumb_mode.name',
+                'description'       => 'inerba.minigallery::lang.component.properties.thumb_mode.description',
+                'type'              => 'dropdown',
                 'default'           => 'crop',
+                'options'           => [
+                                            'auto'=>'Automatico', 
+                                            'exact'=>'Dimensioni esatte', 
+                                            'crop'=>'Ritaglia', 
+                                            'portrait'=>'Verticale', 
+                                            'landscape'=>'orizzontale'
+                                        ],
                 'group'             => 'Thumbnails',
             ],
         ];
