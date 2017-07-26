@@ -1,0 +1,11 @@
+plugin:
+    name: 'inerba.minigallery::lang.plugin.name'
+    description: 'inerba.minigallery::lang.plugin.description'
+    author: 'Francesco Apruzzese'
+    icon: oc-icon-image
+    homepage: ''
+navigation:
+    main-menu-minigallery:
+        label: 'inerba.minigallery::lang.plugin.name'
+        url: inerba/minigallery/gallerycontroller
+        icon: icon-image

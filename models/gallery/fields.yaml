@@ -1,0 +1,25 @@
+fields:
+    name:
+        label: Nome
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    description:
+        label: Descrizione
+        size: ''
+        oc.commentPosition: ''
+        span: full
+        type: richeditor
+tabs:
+    fields:
+        images:
+            label: Immagini
+            oc.commentPosition: ''
+            mode: image
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: full
+            type: fileupload
+            tab: Gallery

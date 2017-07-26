@@ -1,0 +1,10 @@
+<h2>{{ gallery.name }}</h2>
+{% if gallery.description %}
+	<div>{{ gallery.description | raw }}</div>
+{% endif %}
+
+<ul>
+{% for image in gallery.images %}
+	<li><img src="{{ image.thumb(thumbs.w, thumbs.h, { mode: thumbs.mode, quality: '80', extension: 'jpg' }) }}"></li>
+{% endfor %}
+</ul>

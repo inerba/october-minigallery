@@ -1,0 +1,10 @@
+name: GalleryController
+form: $/inerba/minigallery/models/gallery/fields.yaml
+modelClass: Inerba\MiniGallery\Models\Gallery
+defaultRedirect: inerba/minigallery/gallerycontroller
+create:
+    redirect: 'inerba/minigallery/gallerycontroller/update/:id'
+    redirectClose: inerba/minigallery/gallerycontroller
+update:
+    redirect: inerba/minigallery/gallerycontroller
+    redirectClose: inerba/minigallery/gallerycontroller
